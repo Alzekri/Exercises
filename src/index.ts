@@ -1,11 +1,11 @@
 //------------------   1 Hello Word ---------------------------//
-// export function hello(): string {
+// function hello(): string {
 //   return "Hello, World!";
 // }
 // console.log(hello());
 
 // -----------------  2 Two Fer ----------------------------------//
-// export function twoFer(name?: string): string {
+// function twoFer(name?: string): string {
 //   return !name ? `One for you, one for me.` : `One for ${name}, one for me.`;
 // }
 // console.log(twoFer(""));
@@ -24,7 +24,7 @@
 //   Grey = 8,
 //   White = 9,
 // }
-// export function decodedValue(...colors: color_coded[]): string {
+// function decodedValue(...colors: color_coded[]): string {
 //   return `${colors[0]}${colors[1]}`;
 // }
 // console.log(
